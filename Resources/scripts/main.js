@@ -2,10 +2,10 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/bouvet-island.jpg") {
-    myImage.setAttribute("src", "images/firefox2.png");
+  if (mySrc === "Resources/images/bouvet-island.jpg") {
+    myImage.setAttribute("src", "Resources/images/firefox2.png");
   } else {
-    myImage.setAttribute("src", "images/bouvet-island.jpg");
+    myImage.setAttribute("src", "Resources/images/bouvet-island.jpg");
   }
 };
 
